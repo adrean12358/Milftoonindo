@@ -1,0 +1,52 @@
+/*
+ * Widget Genre Anime [21/02/18]
+ * @yuukithemes.com
+ *
+ */
+
+.yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
+.yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
+.yuukithemes-genre ul:after{content:"";display:block;clear:both}
+.yuukithemes-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
+.yuukithemes-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.yuukithemes-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
+.yuukithemes-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
+.yuukithemes-genre li a span{display:block;position:relative;z-index:12;}
+.yuukithemes-genre li a[title~=Action]:before{background-image:url("http://imgur.com/a/LrGqDbI");}
+.yuukithemes-genre li a[title~=Adventure]:before{background-image:url("https://2.bp.blogspot.com/-8n3713g-2qY/WoxF7Lbys7I/AAAAAAAAALg/Wjw4J0D0_goeUWN3jSaBVkdWMIb4qukDgCLcBGAs/s1600/adventure.png");}
+.yuukithemes-genre li a[title~=Comedy]:before{background-image:url("https://4.bp.blogspot.com/-_S3hv9jpt0c/WoxF8M1XRAI/AAAAAAAAALk/pMousek5Ji49-gledYTMiIP04x4UidhegCLcBGAs/s1600/comedy.png");}
+.yuukithemes-genre li a[title~=Demons]:before{background-image:url("https://3.bp.blogspot.com/-esJxbOGQtdc/WoxF8V-1g3I/AAAAAAAAALs/_b6qisXjW-cPY51xYzy7-Pa_nqSKXqTQgCLcBGAs/s1600/demons2.png");}
+.yuukithemes-genre li a[title~=Drama]:before{background-image:url("https://3.bp.blogspot.com/-WCK01cgBO9Q/WoxF8lZebPI/AAAAAAAAALw/30jste0A-TgqCIysjOmKye0qGzy1COfLwCLcBGAs/s1600/drama.png");}
+.yuukithemes-genre li a[title~=Ecchi]:before{background-image:url("https://3.bp.blogspot.com/-iu1SnPhXcWY/WoxF8y3DIrI/AAAAAAAAAL0/5p8HLWIGpKY4WgxsYw54r6BrGtoyhOkWQCLcBGAs/s1600/ecchi.png");}
+.yuukithemes-genre li a[title~=Fantasy]:before{background-image:url("https://4.bp.blogspot.com/-aY9TQmfWNQk/WoxF9Ctx1qI/AAAAAAAAAL4/r_yTDwobH8MrYMPJ21DJiW_WUYBIYZM4gCLcBGAs/s1600/fantasy.png");}
+.yuukithemes-genre li a[title~=Game]:before{background-image:url("https://1.bp.blogspot.com/-8xtzeHw6_9s/WoxTBWeG_ZI/AAAAAAAAAOk/MkIf4jXWQQEKK24Wxr5soTELGjcWIA0NgCLcBGAs/s1600/game.png");}
+.yuukithemes-genre li a[title~=Hareem]:before{background-image:url("https://2.bp.blogspot.com/-SNjxpfl3qHs/WoxF9nvhVTI/AAAAAAAAAL8/MpJ6X6ZnsS4sywLak37DmztOkJOUkSQPACLcBGAs/s1600/hareem.png");}
+.yuukithemes-genre li a[title~=Historical]:before{background-image:url("https://2.bp.blogspot.com/-yiPS6BcZKfA/WoxF9ilqcnI/AAAAAAAAAMA/PQineJZVpI0ftN399ykK_qjpaWiUmsHkACLcBGAs/s1600/historical.png");}
+.yuukithemes-genre li a[title~=Horror]:before{background-image:url("https://2.bp.blogspot.com/-T3n21lexbzI/WoxF-LH6TpI/AAAAAAAAAMI/vsotfJpLoIQz7s9vh9hxDsWGITDJRI5DgCLcBGAs/s1600/horror1.png");}
+.yuukithemes-genre li a[title~=Isekai]:before{background-image:url("https://3.bp.blogspot.com/-5RFS8t6wNys/WoxF-sLeGrI/AAAAAAAAAMQ/INnR3AGGY2EC-5hcBArs2NSmGPpiGTeCgCLcBGAs/s1600/isekai1.png");}
+.yuukithemes-genre li a[title~=Kids]:before{background-image:url("https://2.bp.blogspot.com/-DGm33_3IalU/WoxF-8udeiI/AAAAAAAAAMU/fmdmYwydhbUWh-7LHPCg8CT2SAIw4UuEQCLcBGAs/s1600/kids.png");}
+.yuukithemes-genre li a[title~=Magic]:before{background-image:url("https://4.bp.blogspot.com/-RFKWU_zso5U/WoxF_L9KN-I/AAAAAAAAAMY/SYewi7FVG9gw7Z_7-NA_mGez3pfYJVmFQCLcBGAs/s1600/magic.png");}
+.yuukithemes-genre li a[title~=Martial-Arts]:before{background-image:url("https://1.bp.blogspot.com/-5RV9LeLy4cU/WoxF_u-iboI/AAAAAAAAAMg/WsD0tuOtAH006V1cvw3yuZjXnOdWUD7AACLcBGAs/s1600/martial%2Barts.png");}
+.yuukithemes-genre li a[title~=Mecha]:before{background-image:url("https://4.bp.blogspot.com/-NUMYczWjsPQ/WoxF_67yhVI/AAAAAAAAAMk/2eqvCWSUbIcIYA_yvHM2vKVlr8otkOGtACLcBGAs/s1600/mecha.png");}
+.yuukithemes-genre li a[title~=Military]:before{background-image:url("https://2.bp.blogspot.com/-LVFXC8FFYPs/WoxF_8f8ABI/AAAAAAAAAMo/rY-4rpxsJrQ5R_Z3h8BSqwLtosqgto6rgCLcBGAs/s1600/millitary.png");}
+.yuukithemes-genre li a[title~=Music]:before{background-image:url("https://4.bp.blogspot.com/-8Q3-o3LZYZs/WoxGAN_i86I/AAAAAAAAAMs/e9D0DENdnl8o77-mW9E27iI5XQWDy5QsQCLcBGAs/s1600/music.png");}
+.yuukithemes-genre li a[title~=Mystery]:before{background-image:url("https://4.bp.blogspot.com/-t8lIaQXN8KM/WoxTBVLkWCI/AAAAAAAAAOo/vhIqn7FwooEMqs_CLCjwIP064xbN333LQCLcBGAs/s1600/mystery.png");}
+.yuukithemes-genre li a[title~=Parody]:before{background-image:url("https://1.bp.blogspot.com/-ZCkWEM0hayk/WoxTBfKSYOI/AAAAAAAAAOs/CUnwAqOqmTQCLdRF6q6bEfgTmS-cNCv_QCLcBGAs/s1600/parody.png");}
+.yuukithemes-genre li a[title~=Police]:before{background-image:url("https://4.bp.blogspot.com/-R11Uji5OwJc/WoxGA6aX1NI/AAAAAAAAAM4/UwqKz20yS30VyH-xtEN4AXVCrmf5SPalgCLcBGAs/s1600/police.png");}
+.yuukithemes-genre li a[title~=Psychological]:before{background-image:url("https://2.bp.blogspot.com/-F-c7zlCy7xo/Wo00yq1vOFI/AAAAAAAAAQM/SfBT3smg3-IQ-6heg0_HP_QGRaqaQKwmQCLcBGAs/s1600/physchological.png");}
+.yuukithemes-genre li a[title~=Romance]:before{background-image:url("https://2.bp.blogspot.com/-DRN5kVs3dWI/WoxGBR_883I/AAAAAAAAANA/E243CocJrv0nbv7L4ZCgPTv3gZa-JvSugCLcBGAs/s1600/romance.png");}
+.yuukithemes-genre li a[title~=School]:before{background-image:url("https://1.bp.blogspot.com/-UWA2KVDJ1no/WoxGBnmPfKI/AAAAAAAAANE/-KCuFdIzk5QcZG0Wfoy9YsQwJsJrmlxzwCLcBGAs/s1600/school.png");}
+.yuukithemes-genre li a[title~=Sci-Fi]:before{background-image:url("https://4.bp.blogspot.com/-qnq003jAfp8/WoxGCnMNJ0I/AAAAAAAAANM/ME21z5HZLOYhhcKJw66wwJLQXpR5Cdf4wCLcBGAs/s1600/sci-fi.png");}
+.yuukithemes-genre li a[title~=Seinen]:before{background-image:url("https://2.bp.blogspot.com/-Hq6CULAjfSA/Wo0GHF_JD3I/AAAAAAAAAPg/A1AZAI60x0opNhvxGX7LUFojOdS7ePmDgCLcBGAs/s1600/seinen.png");}
+.yuukithemes-genre li a[title~=Shounen]:before{background-image:url("https://2.bp.blogspot.com/-60HuXQ510Kc/WoxGDbb0svI/AAAAAAAAANY/UxtiBk6hzhAAznM6rXl3dwQfeRUrMWyngCLcBGAs/s1600/shounen.png");}
+.yuukithemes-genre li a[title~=Shoujo]:before{background-image:url("https://1.bp.blogspot.com/-hPg7wXkC5V4/Wo1j04kuu2I/AAAAAAAAAQo/VntHSbIN8SAIaWSbNHpbi2AKWdgCuonjACLcBGAs/s1600/shoujo.png");}
+.yuukithemes-genre li a[title~=Slice-of-Life]:before{background-image:url("https://3.bp.blogspot.com/-RZIBq05XDW8/WoxGD_w8_1I/AAAAAAAAANg/Ide9dby6p5cew3ACKLmryPv60cpIcs4YQCLcBGAs/s1600/slice%2Bof%2Blife.png");}
+.yuukithemes-genre li a[title~=Space]:before{background-image:url("https://4.bp.blogspot.com/-Ebf1enRZYSI/WoxGEMyHUPI/AAAAAAAAANk/plxdxbyIASMKSdbxy57dKy9qqiREl9HEgCLcBGAs/s1600/space.png");}
+.yuukithemes-genre li a[title~=Sports]:before{background-image:url("https://3.bp.blogspot.com/-5q0bRP80BCQ/WoxGEH4m12I/AAAAAAAAANo/us7b3_uc5fQnbYc2LQkMMZ10a-MardsbACLcBGAs/s1600/sport.png");}
+.yuukithemes-genre li a[title~=Supernatural]:before{background-image:url("https://2.bp.blogspot.com/-8LTq1yiNMuc/WoxGEckJw0I/AAAAAAAAANs/GGs1KU6hQv4fGPfMcyBUFY5-9krm0L6tQCLcBGAs/s1600/supernatural.png");}
+.yuukithemes-genre li a[title~=Super-Power]:before{background-image:url("https://2.bp.blogspot.com/-R4qYwOL4pIY/WoxGE--f3mI/AAAAAAAAANw/HoOETgXyzxIg9fvq0Em4xhK8mi2KMKZkwCLcBGAs/s1600/superpower.png");}
+.yuukithemes-genre li a[title~=Tragedy]:before{background-image:url("https://4.bp.blogspot.com/-u9LSBhgrMwU/WoxGFLa-U7I/AAAAAAAAAN0/qGMQxRqB0v8AFgtVChBtMIzt_Ff-N9aqwCLcBGAs/s1600/tragedy.png");}
+.yuukithemes-genre li a[title~=Vampire]:before{background-image:url("https://4.bp.blogspot.com/-b9036SURy9w/WoxGFKnVgGI/AAAAAAAAAN4/HWAcUI3sOVwJBp6sCV5BcRkBzUCVJ7XwACLcBGAs/s1600/vampire.png");}
+@media screen and (max-width:480px){
+.yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:11px}
+}
